@@ -39,3 +39,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 Happy coding!
 
 python3 manage.py runserver
+
+coverage run --source=todo manage.py test
+coverage html
+python3 -m http.server
